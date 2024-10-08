@@ -24,7 +24,7 @@ export default function Home() {
       }}
     >
       <HeaderComponent />
-      <ContentTemplate>
+      <ContentTemplate className="flex flex-col gap-4 max-w-6xl px-2">
         <FilterComponent />
         <MoviesComponent />
       </ContentTemplate>

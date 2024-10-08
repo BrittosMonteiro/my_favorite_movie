@@ -11,7 +11,7 @@ interface IMovieCard {
 export default function MovieCard({ onClick, movie }: IMovieCard) {
   return (
     <div
-      className="card w-full sm:max-w-48 h-48 shadow-xl rounded-md backdrop-blur-xl p-2 cursor-pointer"
+      className="card w-full sm:max-w-44 h-44 shadow-xl rounded-md backdrop-blur-xl p-2 cursor-pointer"
       onClick={onClick}
     >
       <figure>
