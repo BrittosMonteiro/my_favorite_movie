@@ -57,7 +57,7 @@ export default function MoviesComponent() {
       </article>
 
       {/* Movies list */}
-      <div className="w-full flex gap-4 flex-wrap items-center justify-between">
+      <div className="w-full flex gap-4 flex-wrap items-center justify-start">
         {movies.map(({ backdrop_path, id, overview, poster_path, title }) => (
           <MovieCard
             key={id}
